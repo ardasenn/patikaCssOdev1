@@ -1,0 +1,49 @@
+:root{
+    --mypx:24px;
+    --maxwidth:800px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+#page-header{    
+    text-align: center;
+    background-color: #BD4291;
+}
+#page-header a{    
+    border: 1px;
+    background-color: #FFC54D;
+    border-radius: 3px;
+    color: aliceblue;
+    font-size: 20px;
+    margin: 24px;
+}
+main{
+   
+    background-color: #F94C66;
+       
+}
+main section{
+    margin: var(--mypx);
+    padding: var(--mypx);
+}
+
+main section:first-child{
+    
+    margin: var(--mypx);
+    padding: var(--mypx);
+    max-width: var(--maxwidth);
+}
+main section:last-child{
+   
+    margin:var(--mypx);
+    padding: var(--mypx);
+    max-width: var(--maxwidth);
+}
+#page-footer{
+    font-size:var(--mypx);
+    background-color: #53BF9D;
+    padding: var(--mypx);
+}
